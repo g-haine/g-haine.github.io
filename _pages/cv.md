@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Applied Mathematics, Université de Lorraine (Fr), 2012
+* Master in Applied Mathematics, Université de Lorraine (Fr), 2009
+* Licence in Applied Mathematics and Informatics, Université de Lorraine (Fr), 2006
 
 Work experience
 ======
