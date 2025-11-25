@@ -30,6 +30,9 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
+          {% if page.doi %}
+            <p class="page__meta"><strong>DOI: <a href="https://doi.org/{{ page.doi | escape }}" target="_blank">{{ page.doi }}</a></strong></p>
+          {% endif %}
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -46,34 +49,66 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% endif %}
 
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% if page.link %}
+          <a href="{{ page.link }}" class="btn" title="Direct Link" style="text-decoration: none;"><span> {{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</span></a> &nbsp;
+        {% endif %}
+        {% if page.paperurl %}
+          <a href="{{ page.paperurl }}" class="btn" title="Download Paper" style="text-decoration: none;"><i class="fa fa-download" aria-hidden="true"></i><span> Download Paper</span></a> &nbsp;
+        {% endif %}
+        {% if page.slidesurl %}
+          <a href="{{ page.slidesurl }}" class="btn" title="Download Slides" style="text-decoration: none;"><i class="fa fa-download" aria-hidden="true"></i><span> Download Slides</span></a> &nbsp;
+        {% endif %}
+        {% if page.bibtexurl %}
+          <a href="{{ page.bibtexurl }}" class="btn" title="Download BibTeX" style="text-decoration: none;"><i class="fa fa-download" aria-hidden="true"></i><span> Download BibTeX</span></a> &nbsp;
+          <button id="copy-bibtex-btn" class="btn">
+            <i class="fa fa-copy" aria-hidden="true"></i><span> Copy BibTeX</span>
+          </button>
+        {% endif %}
+
+        {% if page.bibtexurl %}
+        <div style="margin-top:1em; margin-bottom:1em;">
+          <pre id="bibtex-viewer"
+               style="width:100%; max-height:300px; overflow:auto; border:1px solid #ccc; border-radius:4px; padding:0.5em; font-size: 10px;">
+        Loading BibTeX…
+          </pre>
+        </div>
+
+        <script>
+          (function () {
+            const viewer = document.getElementById("bibtex-viewer");
+            const button = document.getElementById("copy-bibtex-btn");
+            let currentText = "";
+
+            fetch("{{ page.bibtexurl | relative_url }}")
+              .then(response => response.text())
+              .then(text => {
+                currentText = text;
+                viewer.textContent = text;
+              })
+              .catch(err => {
+                console.error("Error loading BibTeX:", err);
+                viewer.textContent = "Error loading BibTeX.";
+              });
+
+            button.addEventListener("click", function () {
+              if (!currentText) return;
+
+              navigator.clipboard.writeText(currentText).then(function () {
+                const old = button.textContent;
+                button.textContent = "Copied!";
+                setTimeout(() => button.textContent = old, 1200);
+              }).catch(function (err) {
+                console.error("Clipboard error:", err);
+                button.textContent = "Error";
+              });
+            });
+          })();
+        </script>
+        {% endif %}
       </section>
 
       <footer class="page__meta">
@@ -85,7 +120,7 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
-      {% include post_pagination.html %}
+      {% comment %}<!-- {% include post_pagination.html %} -->{% endcomment %}
     </div>
 
     {% if site.comments.provider and page.comments %}

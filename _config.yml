@@ -24,11 +24,13 @@ repository               : "g-haine.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "G. Haine"
+  name             : "Ghislain Haine"
   pronouns         : "he/his" # example: "she/her"  
-  bio              : "Ass. Prof. in Applied Mathematics"
-  location         : "Toulouse, France"
-  employer         : "ISAE-SUPAERO"
+  bio              : "Associate Professor in Applied Mathematics at the Complex Systems Engineering Department"
+  location         : |
+    10, avenue Marc Pélegrin, BP 54032  
+    31055 Toulouse CEDEX 4 - France
+  employer         : "ISAE-SUPAERO (DISC)"
   uri              : # URL
   email            : "ghislain.haine@isae.fr" 
 
@@ -89,11 +91,11 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "/images/simus/SP-ROM-Electro-Mag.svg" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"

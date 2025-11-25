@@ -11,46 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Applied Mathematics, Université de Lorraine (Fr), 2012
-* Master in Applied Mathematics, Université de Lorraine (Fr), 2009
-* Licence in Applied Mathematics and Informatics, Université de Lorraine (Fr), 2006
+
+* **Ph.D. in Applied Mathematics**, Université de Lorraine (France), 2012
+* **Master’s Degree in Applied Mathematics**, Université de Lorraine (France), 2009
+* **Bachelor’s Degree in Applied Mathematics and Computer Science**, Université de Lorraine (France), 2006
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Since 2013 - Associate Professor**  
+  *ISAE-SUPAERO - Université de Toulouse*  
+  **Duties included:**  
+  * Lectures, practical sessions, and tutorial classes  
+  * Research project development and management  
+  * Improvement and redesign of engineering programs  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **2012--2013 - Research Assistant (ATER)**  
+  *Université de Lorraine*  
+  **Duties included:**  
+  * Practical teaching at Mines de Nancy  
+  * Tutorial classes at Université de Lorraine  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **2009--2012 - PhD Student with Teaching Duties**  
+  *Université de Lorraine*  
+  **Duties included:**  
+  * Practical teaching at Mines de Nancy  
+  * Member of the INRIA outreach working group  
+  * Webmaster of the PhD students' website of the laboratory  
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
 Teaching
@@ -61,4 +52,8 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+
+* **2015--2024 - Head of the Applied Maths In charge of the core Applied Mathematics course in the engineering program**  
+* **2019--2023 - Elected faculty representative on the Board of Directors**  
+* **2015--2023 - Elected faculty representative on the Education Council**  
+
