@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2014-01-14-paper-MCSS
 date: 2014-01-14
 venue: "Mathematics of Control, Signals, and Systems"
-paperurl: /files/paper/2014-MCSS.pdf
+paperurl: /files/papers/2014-MCSS.pdf
 bibtexurl: /files/bibtex/2014-MCSS.bib
 citation: "Haine Ghislain (2014) <i>Recovering the observable part of the initial data of an infinite-dimensional linear system with skew-adjoint generator.</i> Mathematics of Control, Signals, and Systems; 26(3):435–462"
 doi: "10.1007/s00498-014-0124-z"

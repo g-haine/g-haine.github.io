@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2011-12-30-paper-JESA
 date: 2011-12-30
 venue: "Journal Européen des Systèmes Automatisés"
-paperurl: /files/paper/2011-JESA.pdf
+paperurl: /files/papers/2011-JESA.pdf
 bibtexurl: /files/bibtex/2011-JESA.bib
 citation: "Haine Ghislain, Ramdani Karim (2011) <i>Observateurs itératifs en horizon fini. Application à la reconstruction de données initiales pour des EDP d'évolution.</i> Journal Européen des Systèmes Automatisés; 45(7–10):715–724"
 doi: "10.3166/jesa.45.715-724"

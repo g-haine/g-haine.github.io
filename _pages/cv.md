@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitæ"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,13 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
+## Education  
+---
 
 * **Ph.D. in Applied Mathematics**, Université de Lorraine (France), 2012
 * **Master’s Degree in Applied Mathematics**, Université de Lorraine (France), 2009
 * **Bachelor’s Degree in Applied Mathematics and Computer Science**, Université de Lorraine (France), 2006
 
-## Work experience
+## Work experience  
+---
 
 * **Since 2013 - Associate Professor**  
   *ISAE-SUPAERO - Université de Toulouse*  
@@ -37,41 +39,52 @@ redirect_from:
   * Member of the INRIA outreach working group  
   * Webmaster of the PhD students' website of the laboratory  
 
-## Publications
+## Publications  
+---
 
-### Journal Articles
-
-  <ol reversed>
-  {% assign filtered = site.publications | where: "category", "manuscripts" %}
-  {% assign sorted = filtered | sort: "date" | reverse %}
-  {% for post in sorted %}
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+### {{ category[1].title }}
+<ol reversed>
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single-cv.html %}
+    {% endfor %}
+      {% if title_shown %}
+</ol>
+      {% endif %}
+  {% endfor %}
+{% else %}
+<ol reversed>
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
-  </ol>
-  
-### Conference Papers
+</ol>
+{% endif %}
 
-  <ol reversed>
-  {% assign filtered = site.publications | where: "category", "conferences" %}
-  {% assign sorted = filtered | sort: "date" | reverse %}
-  {% for post in sorted %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-  </ol>
+## PhD advisor  
+---
+
+0. **Antoine Bendimerad-Hohl**: *Discrétisation structurée de systèmes Hamiltoniens à ports d'interaction implicites*. Supervised with Laurent Lefèvre and Denis Matignon. Started in October 2022, defense on November, the 5th.  
+0. **Anass Serhani**: *Systèmes couplés d'EDPs, vus comme des systèmes Hamiltoniens à ports avec dissipation : Analyse théorique et simulation numérique*. Supervised with Denis Matignon. Started in October 2017, defense on September 2020, the 28th.  
+0. **Guillaume Delay**: *Étude d'un problème d'interaction fluide-structure : modélisation, analyse, stabilisation et simulations numériques*. Supervised with Sylvain Ervedoza and Michel Fournié. Started in November 2015, defense on August 2018, the 31st.  
+{: reversed="reversed"}
   
-## Teaching
+## Teaching  
+---
 
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-## PhD advisor
-
-* **Antoine Bendimerad-Hohl**: *Discrétisation structurée de systèmes Hamiltoniens à ports d'interaction implicites*. Supervised with Laurent Lefèvre and Denis Matignon. Started in October 2022, defense on November, the 5th.  
-* **Anass Serhani**: *Systèmes couplés d'EDPs, vus comme des systèmes Hamiltoniens à ports avec dissipation : Analyse théorique et simulation numérique*. Supervised with Denis Matignon. Started in October 2017, defense on September 2020, the 28th.  
-* **Guillaume Delay**: *Étude d'un problème d'interaction fluide-structure : modélisation, analyse, stabilisation et simulations numériques*. Supervised with Sylvain Ervedoza and Michel Fournié. Started in November 2015, defense on August 2018, the 31st.  
   
-## Service and leadership
+## Service and leadership  
+---
 
 * **2015--2024 - In charge of the core Applied Mathematics course in the engineering program**  
 * **2019--2023 - Elected faculty representative on the Board of Directors**  

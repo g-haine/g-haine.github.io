@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2011-09-11-paper-Numerische-Mathematik
 date: 2011-09-11
 venue: "Numerische Mathematik"
-paperurl: /files/paper/2012-Numerische-Mathematik.pdf
+paperurl: /files/papers/2012-Numerische-Mathematik.pdf
 bibtexurl: /files/bibtex/2012-Numerische-Mathematik.bib
 citation: "Haine Ghislain, Ramdani Karim (2012) <i>Reconstructing initial data using observers: error analysis of the semi-discrete and fully discrete approximations.</i> Numerische Mathematik; 120(2):307–343"
 doi: "10.1007/s00211-011-0408-x"
