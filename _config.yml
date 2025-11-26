@@ -44,7 +44,7 @@ author:
   semantic         : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Ghislain_Haine/" # URL
-  scopus           : # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=49863324900" # URL
 
   # Repositories and software development
   bitbucket        : # Username
@@ -95,7 +95,7 @@ teaser                   : "/images/simus/SP-ROM-Electro-Mag.svg" # filename of 
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -109,7 +109,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
