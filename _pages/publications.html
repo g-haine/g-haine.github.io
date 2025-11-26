@@ -21,16 +21,17 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
+        <ol reversed>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
     {% endfor %}
+    </ol>
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include archive-single-cv.html %}
   {% endfor %}
 {% endif %}
-
 
 
