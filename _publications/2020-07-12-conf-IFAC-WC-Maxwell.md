@@ -2,7 +2,7 @@
 title: "Modelling and structure-preserving discretization of Maxwell's equations as port-Hamiltonian system"
 collection: publications
 category: conferences
-permalink: /publication/2020-07-12-conf-IFAC-WC-Maxwell
+permalink: /publications/2020-07-12-conf-IFAC-WC-Maxwell
 date: 2020-07-12
 venue: "21st IFAC World Congress"
 bibtexurl: /files/bibtex/2020-IFAC-WC-Maxwell.bib

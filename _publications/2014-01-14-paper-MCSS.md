@@ -2,7 +2,7 @@
 title: "Recovering the observable part of the initial data of an infinite-dimensional linear system with skew-adjoint generator"
 collection: publications
 category: manuscripts
-permalink: /publication/2014-01-14-paper-MCSS
+permalink: /publications/2014-01-14-paper-MCSS
 date: 2014-01-14
 venue: "Mathematics of Control, Signals, and Systems"
 paperurl: /files/papers/2014-MCSS.pdf

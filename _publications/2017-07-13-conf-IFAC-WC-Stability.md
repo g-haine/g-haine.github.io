@@ -2,7 +2,7 @@
 title: "Stability of Linear Fractional Differential Equations with Delays: a coupled Parabolic-Hyperbolic PDEs formulation"
 collection: publications
 category: conferences
-permalink: /publication/2017-07-13-conf-IFAC-WC-Stability
+permalink: /publications/2017-07-13-conf-IFAC-WC-Stability
 date: 2017-07-13
 venue: "20th IFAC World Congress"
 bibtexurl: /files/bibtex/2017-IFAC-WC-Stability.bib

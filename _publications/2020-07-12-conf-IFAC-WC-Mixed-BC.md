@@ -2,7 +2,7 @@
 title: "Partitioned finite element method for structured discretization with mixed boundary conditions"
 collection: publications
 category: conferences
-permalink: /publication/2020-07-12-conf-IFAC-WC-Mixed-BC
+permalink: /publications/2020-07-12-conf-IFAC-WC-Mixed-BC
 date: 2020-07-12
 venue: "21st IFAC World Congress"
 bibtexurl: /files/bibtex/2020-IFAC-WC-Mixed-BC.bib

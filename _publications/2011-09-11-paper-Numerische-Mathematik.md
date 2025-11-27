@@ -2,7 +2,7 @@
 title: "Reconstructing initial data using observers: error analysis of the semi-discrete and fully discrete approximations"
 collection: publications
 category: manuscripts
-permalink: /publication/2011-09-11-paper-Numerische-Mathematik
+permalink: /publications/2011-09-11-paper-Numerische-Mathematik
 date: 2011-09-11
 venue: "Numerische Mathematik"
 paperurl: /files/papers/2012-Numerische-Mathematik.pdf

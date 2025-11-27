@@ -2,7 +2,7 @@
 title: "Reconstructing initial data using iterative observers for wave type systems"
 collection: publications
 category: conferences
-permalink: /publication/2013-06-04-conf-Waves
+permalink: /publications/2013-06-04-conf-Waves
 date: 2013-06-04
 venue: "11th International Conference on Mathematical and Numerical Aspects of Waves"
 slidesurl: /files/slides/2013-Waves.pdf

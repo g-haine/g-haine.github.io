@@ -2,7 +2,7 @@
 title: "Numerical Simulation on a Fixed Mesh for the Feedback Stabilization of a Fluid–Structure Interaction System with a Structure Given by a Finite Number of Parameters"
 collection: publications
 category: conferences
-permalink: /publication/2018-06-18-conf-IUTAM
+permalink: /publications/2018-06-18-conf-IUTAM
 date: 2018-06-18
 venue: "IUTAM Symposium on Critical Flow Dynamics involving Moving/Deformable Structures with Design applications"
 bibtexurl: /files/bibtex/2018-IUTAM.bib

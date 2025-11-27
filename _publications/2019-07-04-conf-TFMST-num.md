@@ -2,7 +2,7 @@
 title: "Anisotropic heterogeneous n-D heat equation with boundary control and observation: II. Structure-preserving discretization"
 collection: publications
 category: conferences
-permalink: /publication/2019-07-04-conf-TFMST-num
+permalink: /publications/2019-07-04-conf-TFMST-num
 date: 2019-07-04
 venue: "3rd IFAC Workshop on Thermodynamic Foundations for a Mathematical Systems Theory"
 bibtexurl: /files/bibtex/2019-TFMST-num.bib

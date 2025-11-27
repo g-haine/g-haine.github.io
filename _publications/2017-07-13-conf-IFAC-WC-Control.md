@@ -2,7 +2,7 @@
 title: "Closed-loop perturbations of well-posed linear systems"
 collection: publications
 category: conferences
-permalink: /publication/2017-07-13-conf-IFAC-WC-Control
+permalink: /publications/2017-07-13-conf-IFAC-WC-Control
 date: 2017-07-13
 venue: "20th IFAC World Congress"
 bibtexurl: /files/bibtex/2017-IFAC-WC-Control.bib

@@ -2,7 +2,7 @@
 title: "Structure-Preserving Finite Volume Method for 2D Linear and Non-Linear Port-Hamiltonian Systems"
 collection: publications
 category: conferences
-permalink: /publication/2018-05-03-conf-LHMNC
+permalink: /publications/2018-05-03-conf-LHMNC
 date: 2018-05-03
 venue: "6th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control"
 bibtexurl: /files/bibtex/2018-LHMNC.bib

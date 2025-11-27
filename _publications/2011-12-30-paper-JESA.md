@@ -2,7 +2,7 @@
 title: "Observateurs itératifs en horizon fini. Application à la reconstruction de données initiales pour des EDP d'évolution"
 collection: publications
 category: manuscripts
-permalink: /publication/2011-12-30-paper-JESA
+permalink: /publications/2011-12-30-paper-JESA
 date: 2011-12-30
 venue: "Journal Européen des Systèmes Automatisés"
 paperurl: /files/papers/2011-JESA.pdf

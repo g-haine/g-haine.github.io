@@ -2,7 +2,7 @@
 title: "Modelling the 1D piston problem as interconnected port-Hamiltonian systems"
 collection: publications
 category: conferences
-permalink: /publication/2020-07-12-conf-IFAC-WC-Piston
+permalink: /publications/2020-07-12-conf-IFAC-WC-Piston
 date: 2020-07-12
 venue: "21st IFAC World Congress"
 bibtexurl: /files/bibtex/2020-IFAC-WC-Piston.bib

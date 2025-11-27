@@ -2,7 +2,7 @@
 title: "Anisotropic heterogeneous n-D heat equation with boundary control and observation: I. Modeling as port-Hamiltonian system"
 collection: publications
 category: conferences
-permalink: /publication/2019-07-04-conf-TFMST-th
+permalink: /publications/2019-07-04-conf-TFMST-th
 date: 2019-07-04
 venue: "3rd IFAC Workshop on Thermodynamic Foundations for a Mathematical Systems Theory"
 bibtexurl: /files/bibtex/2019-TFMST-th.bib
