@@ -9,6 +9,11 @@ paperurl: /files/papers/2025-COMPEL.pdf
 bibtexurl: /files/bibtex/2025-COMPEL.bib
 citation: "Gouzien Mattéo, Poussot-Vassal Charles, Haine Ghislain, Matignon Denis (2025) <i>Port-Hamiltonian reduced order modelling of the 2D Maxwell equations.</i> COMPEL - The international journal for computation and mathematics in electrical and electronic engineering; X(X):PP–PP"
 doi: "10.1108/compel-10-2024-0421"
+authors:
+  - Gouzien Mattéo
+  - Poussot-Vassal Charles
+  - Haine Ghislain
+  - Matignon Denis
 ---
 
 ## Purpose  
