@@ -37,11 +37,10 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.authors %}
-      <p class="page__meta"><strong>{{ post.authors | join: ", " }}</strong>
-      {% if post.doi %}
-        </br>
-        <strong>DOI: <a href="https://doi.org/{{ post.doi | escape }}" target="_blank">{{ post.doi }}</a></strong>
-      {% endif %}</p>
+      <strong>{{ post.authors | join: ", " }}</strong>
+    {% endif %}
+    {% if post.doi %}
+      <p class="page__meta"><strong>DOI: <a href="https://doi.org/{{ post.doi | escape }}" target="_blank">{{ post.doi }}</a></strong></p>
     {% endif %}
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
     </li>
