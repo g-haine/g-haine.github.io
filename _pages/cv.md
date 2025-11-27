@@ -87,6 +87,6 @@ redirect_from:
 ---
 
 * **2015--2024 - In charge of the core Applied Mathematics course in the engineering program**  
-* **2019--2023 - Elected faculty representative on the Board of Directors**  
-* **2015--2023 - Elected faculty representative on the Education Council**  
+* **2020--2023 - Elected faculty representative on the Board of Directors**  
+* **2015--2021 - Elected faculty representative on the Education Council**  
 
