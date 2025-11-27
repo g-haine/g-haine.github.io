@@ -24,13 +24,13 @@ author_profile: true
         <ol reversed>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single-cv.html %}
+      {% include archive-single.html %}
     {% endfor %}
     </ol>
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 

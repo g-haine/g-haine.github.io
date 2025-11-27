@@ -14,6 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -52,15 +53,6 @@
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-    {% if post.citation %}
-      <p style="font-size: smaller">To cite: {{ post.citation }}</p>
-    {% endif %}
     
     {% if post.paperurl %}
       <a href="{{ post.paperurl }}" class="btn" title="Download Paper" style="text-decoration: none;"><i class="fa fa-download" aria-hidden="true"></i><span> Download Paper</span></a> &nbsp;
@@ -72,5 +64,6 @@
       <a href="{{ post.bibtexurl }}" class="btn" title="Download BibTeX" style="text-decoration: none;"><i class="fa fa-download" aria-hidden="true"></i><span> Download BibTeX</span></a>
     {% endif %}
 
+    </li>
   </article>
 </div>
