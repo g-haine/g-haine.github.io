@@ -76,13 +76,6 @@ redirect_from:
 0. **Guillaume Delay**: *Étude d'un problème d'interaction fluide-structure : modélisation, analyse, stabilisation et simulations numériques*. Supervised with Sylvain Ervedoza and Michel Fournié. Started in November 2015, defense on August 2018, the 31st.  
 {: reversed="reversed"}
   
-## Teaching  
----
-
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 ## Service and leadership  
 ---
 
