@@ -13,6 +13,12 @@ I defended my PhD Thesis on October 2012, the 22nd, entitled *Observateurs en di
 
 Since then, I worked on modeling, control and discretization of Partial Differential Equations, mainly in the port-Hamiltonian framework.  
 
+## Some useful CLI snippets
+
+* [**doi2bib**](https://gitlab.isae-supaero.fr/-/snippets/10/): to format a bibtex entry from a DOI.
+* [**getDOI**](https://gitlab.isae-supaero.fr/-/snippets/11/): to find a DOI from keywords.
+* [**reduce**](https://gitlab.isae-supaero.fr/-/snippets/13/): to reduce the size of a pdf.
+
 ## Latest Publications
 
 <ul>
