@@ -7,7 +7,7 @@ date: 2025-06-27
 venue: "COMPEL - The international journal for computation and mathematics in electrical and electronic engineering"
 paperurl: /files/papers/2025-COMPEL.pdf
 bibtexurl: /files/bibtex/2025-COMPEL.bib
-citation: "Gouzien Mattéo, Poussot-Vassal Charles, Haine Ghislain, Matignon Denis (2025) <i>Port-Hamiltonian reduced order modelling of the 2D Maxwell equations.</i> COMPEL - The international journal for computation and mathematics in electrical and electronic engineering; X(X):PP–PP"
+citation: "Gouzien Mattéo, Poussot-Vassal Charles, Haine Ghislain, Matignon Denis (2025) <i>Port-Hamiltonian reduced order modelling of the 2D Maxwell equations.</i> COMPEL - The international journal for computation and mathematics in electrical and electronic engineering; 45(3):389–411"
 doi: "10.1108/compel-10-2024-0421"
 authors:
   - Gouzien Mattéo
