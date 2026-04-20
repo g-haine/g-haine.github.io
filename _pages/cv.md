@@ -3,6 +3,8 @@ layout: archive
 title: "Curriculum vitæ"
 permalink: /cv/
 author_profile: true
+docx: false
+pdf: true
 redirect_from:
   - /resume
 ---

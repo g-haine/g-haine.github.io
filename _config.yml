@@ -307,10 +307,12 @@ timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins
 plugins:
   - jekyll-redirect-from
+  - jekyll-pandoc-exports
 
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-redirect-from
+  - jekyll-pandoc-exports
 
 
 # Archives
@@ -348,3 +350,36 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Pandoc export
+pandoc_exports:
+  # Core Settings
+  enabled: true                     # Enable/disable plugin (default: true)
+  output_dir: 'files/downloads'           # Output directory (default: site root)
+  collections: ['pages', 'posts']   # Collections to process
+  incremental: true                 # Only regenerate changed files
+
+  # Performance & Debugging
+  debug: true                       # Enable debug logging
+  max_file_size: 10000000           # Max file size in bytes (10MB)
+  performance_monitoring: true      # Log processing times
+  strict_size_limit: false          # Fail on size limit (vs warn)
+
+  # Pandoc Options
+  pandoc_options: {}
+
+  # PDF Generation
+  pdf_options:
+    variable: 'geometry:margin=0.5in'
+
+  # Content Processing
+  unicode_cleanup: true
+  title_cleanup:
+    - '<title>.*?</title>'
+    - '<h1[^>]*>.*?Site Title.*?</h1>'
+    - '<div class="masthead[^"]*".*?</div>\s*<div id="main" role="main">'
+    - '<div class="author__urls-wrapper".*?</div>\s*<div class="archive">'
+    - '<div class="page__footer[^"]*".*?</div>\s*</footer>'
+
+  # Download Links
+  inject_downloads: false
