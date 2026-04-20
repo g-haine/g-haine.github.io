@@ -8,4 +8,4 @@ I used a fork of [Academic Pages](https://github.com/academicpages/academicpages
 
 - [x] Fork and adapt
 - [X] Fill publications
-- [ ] Fill CV
+- [X] Fill CV
