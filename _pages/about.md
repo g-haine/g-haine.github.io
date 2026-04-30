@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+**Science is in danger, please take a look at this [petition](https://framapetitions.org/petition/user/science.peace/open-letter-to-protect-educational-and-scientific-institutions-in-times-of-conflict).**
+
+---
+
 Since April 2013, I am Associate Professor in the department DISC of [ISAE-SUPAERO](https://www.isae-supaero.fr/).  
 
 I defended my PhD Thesis on October 2012, the 22nd, entitled *Observateurs en dimension infinie. Application à l’étude de quelques problèmes inverses*, under the supervision of [Karim Ramdani](https://karim-ramdani.perso.math.cnrs.fr/) and [Marius Tucsnak](https://www.math.u-bordeaux.fr/~mtucsnak/). I focused on inverse problems for linear systems using the observers-based algorithm introduced by Ramdani, Tucsnak and Weiss (*Recovering the initial state of an infinite-dimensional system using observers*, Automatica, vol. 46, pp. 1616-1625, 2010). Such problems arise for instance in medical imaging, meteorology, source identification and much more.  
