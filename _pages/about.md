@@ -28,13 +28,13 @@ Since then, I worked on modeling, control and discretization of Partial Differen
 {% endfor %}
 </ul>
 
-## Current projects in development=
+## Current projects in development
 
 * [**PHRAISE**](https://g-haine.github.io/phraise/): **P**ort-**H**amiltonian **R**epresentation and **A**pproximation of **I**nterconnected **S**ystems using **E**nergy is a bibliographical survey attempt about port-Hamiltonian researches, both on the theoretical and the numerical sides.  
 * [**SCRIMP**](https://g-haine.github.io/scrimp/): **S**imulation and **C**ont**R**ol of **I**nteractions in **M**ulti-**P**hysics is a python collection, namely a *package*, of methods and classes for the structure-preserving discretization and simulation of multi-physics models, using the formalism of port-Hamiltonian systems.  
 
 
-## Some useful CLI snippets=
+## Some useful CLI snippets
 
 * [**doi2bib**](https://gitlab.isae-supaero.fr/-/snippets/10/): to format a bibtex entry from a DOI.
 * [**getDOI**](https://gitlab.isae-supaero.fr/-/snippets/11/): to find a DOI from keywords.
