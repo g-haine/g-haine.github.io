@@ -22,20 +22,20 @@ redirect_from:
 ## Work experience  
 ---
 
-* **Since 2013 - Associate Professor**  
+* Since 2013 - **Associate Professor**  
   *ISAE-SUPAERO - Université de Toulouse*  
   **Duties included:**  
   * Lectures, practical sessions, and tutorial classes  
   * Research project development and management  
   * Improvement and redesign of engineering programs  
 
-* **2012--2013 - Research Assistant (ATER)**  
+* 2012--2013 - **Research Assistant (ATER)**  
   *Université de Lorraine*  
   **Duties included:**  
   * Practical teaching at Mines de Nancy  
   * Tutorial classes at Université de Lorraine  
 
-* **2009--2012 - PhD Student with Teaching Duties**  
+* 2009--2012 - **PhD Student with Teaching Duties**  
   *Université de Lorraine*  
   **Duties included:**  
   * Practical teaching at Mines de Nancy  
@@ -55,26 +55,26 @@ redirect_from:
 
 ### Current
 
-{% comment %} * 2027-2032 - **MISTICS** - *Modelling, Simulation and Control of Irreversible Thermodynamic Systems* - [ANR](https://anr.fr/) {% endcomment %}
-* 2025-2029 - **SPHERE** - *Structure-preserving methods for heat and electromagnetics research* - [AID](https://www.defense.gouv.fr/aid) - **Coordinator**
+{% comment %} * 2027--2032 - **MISTICS** - *Modelling, Simulation and Control of Irreversible Thermodynamic Systems* - [ANR](https://anr.fr/) {% endcomment %}
+* 2025--2029 - **SPHERE** - *Structure-preserving methods for heat and electromagnetics research* - [AID](https://www.defense.gouv.fr/aid) - **Coordinator**
 
 ### Past
 
-0. 2021-2025 - [**IMPACTS**](https://impacts.ens2m.fr/) - *Implicit port Hamiltonian control systems* - [ANR](https://anr.fr/)
-0. 2021-2023 - **FAMAS** - *Fast and accurate Maxwell solver* - [AID](https://www.defense.gouv.fr/aid)
-0. 2016-2021 - [**INFIDHEM**](https://websites.isae-supaero.fr/infidhem/) - *Interconnected infinite-dimensional systems for heterogeneous media* - [ANR](https://anr.fr/)--[DFG](https://www.dfg.de/)
+0. 2021--2025 - [**IMPACTS**](https://impacts.ens2m.fr/) - *Implicit port Hamiltonian control systems* - [ANR](https://anr.fr/)
+0. 2021--2023 - **FAMAS** - *Fast and accurate Maxwell solver* - [AID](https://www.defense.gouv.fr/aid)
+0. 2016--2021 - [**INFIDHEM**](https://websites.isae-supaero.fr/infidhem/) - *Interconnected infinite-dimensional systems for heterogeneous media* - [ANR](https://anr.fr/)--[DFG](https://www.dfg.de/)
 0. 2017 - **FUSION** - *Fluide-structure : interaction et observateur non-linéaire* - [CNRS-PEPS](https://www.cnrs.fr/)
 0. 2016 - **OPIMF** - *Observateurs et problèmes inverses en mécanique des fluides* - [CNRS-PEPS](https://www.cnrs.fr/)
-0. 2014-2016 - **CARPE** - *Contrôle actif robuste d'écoulement de plaque épaisse* - [Fondation STAE](https://fr.wikipedia.org/wiki/Fondation_Sciences_et_technologies_pour_l%27a%C3%A9ronautique_et_l%27espace)   
-0. 2010-2012 - **IPPON** - *Identification pour les problèmes de propagation d'ondes* - [FRAE](https://www.fnrae.org/detail-projet?id_theme=8&id_projet=44)
+0. 2014--2016 - **CARPE** - *Contrôle actif robuste d'écoulement de plaque épaisse* - [Fondation STAE](https://fr.wikipedia.org/wiki/Fondation_Sciences_et_technologies_pour_l%27a%C3%A9ronautique_et_l%27espace)   
+0. 2010--2012 - **IPPON** - *Identification pour les problèmes de propagation d'ondes* - [FRAE](https://www.fnrae.org/detail-projet?id_theme=8&id_projet=44)
 {: reversed="reversed"}
   
 ## Service and leadership  
 ---
 
-* **2015--2024 - In charge of the core Applied Mathematics course in the engineering program**  
-* **2020--2023 - Elected faculty representative on the Board of Directors**  
-* **2015--2021 - Elected faculty representative on the Education Council**  
+* 2015--2024 - In charge of the **core Applied Mathematics course** in the engineering program  
+* 2020--2023 - Elected **faculty representative on the Board of Directors**  
+* 2015--2021 - Elected **faculty representative on the Education Council**  
 
 ## Publications  
 ---
