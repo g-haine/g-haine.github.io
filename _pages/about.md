@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+---
 
 **Science is in danger, please take a look at this [petition](https://framapetitions.org/petition/user/science.peace/open-letter-to-protect-educational-and-scientific-institutions-in-times-of-conflict).**
 
@@ -17,12 +18,6 @@ I defended my PhD Thesis on October 2012, the 22nd, entitled *Observateurs en di
 
 Since then, I worked on modeling, control and discretization of Partial Differential Equations, mainly in the port-Hamiltonian framework.  
 
-## Some useful CLI snippets
-
-* [**doi2bib**](https://gitlab.isae-supaero.fr/-/snippets/10/): to format a bibtex entry from a DOI.
-* [**getDOI**](https://gitlab.isae-supaero.fr/-/snippets/11/): to find a DOI from keywords.
-* [**reduce**](https://gitlab.isae-supaero.fr/-/snippets/13/): to reduce the size of a pdf.
-
 ## Latest Publications
 
 <ul>
@@ -33,8 +28,14 @@ Since then, I worked on modeling, control and discretization of Partial Differen
 {% endfor %}
 </ul>
 
-## Current projects
+## Current projects in development=
 
 * [**PHRAISE**](https://g-haine.github.io/phraise/): **P**ort-**H**amiltonian **R**epresentation and **A**pproximation of **I**nterconnected **S**ystems using **E**nergy is a bibliographical survey attempt about port-Hamiltonian researches, both on the theoretical and the numerical sides.  
 * [**SCRIMP**](https://g-haine.github.io/scrimp/): **S**imulation and **C**ont**R**ol of **I**nteractions in **M**ulti-**P**hysics is a python collection, namely a *package*, of methods and classes for the structure-preserving discretization and simulation of multi-physics models, using the formalism of port-Hamiltonian systems.  
 
+
+## Some useful CLI snippets=
+
+* [**doi2bib**](https://gitlab.isae-supaero.fr/-/snippets/10/): to format a bibtex entry from a DOI.
+* [**getDOI**](https://gitlab.isae-supaero.fr/-/snippets/11/): to find a DOI from keywords.
+* [**reduce**](https://gitlab.isae-supaero.fr/-/snippets/13/): to reduce the size of a pdf.

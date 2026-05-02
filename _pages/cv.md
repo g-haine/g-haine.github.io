@@ -49,6 +49,25 @@ redirect_from:
 0. **Anass Serhani**: *Systèmes couplés d'EDPs, vus comme des systèmes Hamiltoniens à ports avec dissipation : Analyse théorique et simulation numérique*. Supervised with Denis Matignon. Started in October 2017, defense on September 2020, the 28th.  
 0. **Guillaume Delay**: *Étude d'un problème d'interaction fluide-structure : modélisation, analyse, stabilisation et simulations numériques*. Supervised with Sylvain Ervedoza and Michel Fournié. Started in November 2015, defense on August 2018, the 31st.  
 {: reversed="reversed"}
+
+## Research projects
+---
+
+### Current
+
+{% comment %} * 2027-2032 - **MISTICS** - *Modelling, Simulation and Control of Irreversible Thermodynamic Systems* - [ANR](https://anr.fr/) {% endcomment %}
+* 2025-2029 - **SPHERE** - *Structure-preserving methods for heat and electromagnetics research* - [AID](https://www.defense.gouv.fr/aid) - **Coordinator**
+
+### Past
+
+0. 2021-2025 - [**IMPACTS**](https://impacts.ens2m.fr/) - *Implicit port Hamiltonian control systems* - [ANR](https://anr.fr/)
+0. 2021-2023 - **FAMAS** - *Fast and accurate Maxwell solver* - [AID](https://www.defense.gouv.fr/aid)
+0. 2016-2021 - [**INFIDHEM**](https://websites.isae-supaero.fr/infidhem/) - *Interconnected infinite-dimensional systems for heterogeneous media* - [ANR](https://anr.fr/)--[DFG](https://www.dfg.de/)
+0. 2017 - **FUSION** - *Fluide-structure : interaction et observateur non-linéaire* - [CNRS-PEPS](https://www.cnrs.fr/)
+0. 2016 - **OPIMF** - *Observateurs et problèmes inverses en mécanique des fluides* - [CNRS-PEPS](https://www.cnrs.fr/)
+0. 2014-2016 - **CARPE** - *Contrôle actif robuste d'écoulement de plaque épaisse* - [Fondation STAE](https://fr.wikipedia.org/wiki/Fondation_Sciences_et_technologies_pour_l%27a%C3%A9ronautique_et_l%27espace)   
+0. 2010-2012 - **IPPON** - *Identification pour les problèmes de propagation d'ondes* - [FRAE](https://www.fnrae.org/detail-projet?id_theme=8&id_projet=44)
+{: reversed="reversed"}
   
 ## Service and leadership  
 ---
