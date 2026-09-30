@@ -30,9 +30,9 @@ Since then, I worked on modeling, control and discretization of Partial Differen
 
 ## Current projects in development
 
-* [**PHRAISE**](https://g-haine.github.io/phraise/): **P**ort-**H**amiltonian **R**epresentation and **A**pproximation of **I**nterconnected **S**ystems using **E**nergy is a bibliographical survey attempt about port-Hamiltonian researches, both on the theoretical and the numerical sides.  
-* [**SCRIMP**](https://g-haine.github.io/scrimp/): **S**imulation and **C**ont**R**ol of **I**nteractions in **M**ulti-**P**hysics is a python collection, namely a *package*, of methods and classes for the structure-preserving discretization and simulation of multi-physics models, using the formalism of port-Hamiltonian systems.  
+I am working on a collection of python methods and classes in the [SCRIMP project](https://github.com/g-haine/scrimp), intended to speed up the coding process of structure-preserving discretization of port-Hamiltonian systems.
 
+I also developped [BibReview](https://g-haine.github.io/bibreview/) -- a configurable bibliographic review engine for collecting, curating, and publishing scholarly literature as static websites -- and maintain the bibliographic database about port-Hamiltonian systems [PHRAISE](https://g-haine.github.io/phraise/) as a demonstrator.
 
 ## Some useful CLI snippets
 
