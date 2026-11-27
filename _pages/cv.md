@@ -11,18 +11,16 @@ redirect_from:
 
 {% include base_path %}
 
----
-
 ## Education  
+---
 
 * **Ph.D. in Applied Mathematics**, Université de Lorraine (France), 2012
   * Defended in October 2012, entitled [*Observateurs en dimension infinie. Application à l'étude de quelques problèmes inverses*]({{ base_path }}/files/downloads/these.pdf), under the supervision of [Karim Ramdani](https://karim-ramdani.perso.math.cnrs.fr/) and [Marius Tucsnak](https://www.math.u-bordeaux.fr/~mtucsnak/).
 * **Master’s Degree in Applied Mathematics**, Université de Lorraine (France), 2009
 * **Bachelor’s Degree in Applied Mathematics and Computer Science**, Université de Lorraine (France), 2006
 
----
-
 ## Work experience  
+---
 
 * Since 2013 - **Associate Professor**  
   *ISAE-SUPAERO - Université de Toulouse*  
@@ -44,9 +42,8 @@ redirect_from:
   * Member of the INRIA outreach working group  
   * Webmaster of the PhD students' website of the laboratory  
 
----
-
 ## PhD advisor  
+---
 
 0. **Lorenzo Agostini**: *Port-Hamiltonian Approximations by Reduced-Order Systems*. Supervised with Charles Poussot-Vassal and Denis Matignon. Started in October 2026.  
 0. **Antoine Bendimerad-Hohl**: *Discrétisation structurée de systèmes Hamiltoniens à ports d'interaction implicites*. Supervised with Laurent Lefèvre and Denis Matignon. Started in October 2022, defense on November, the 5th.  
@@ -54,9 +51,8 @@ redirect_from:
 0. **Guillaume Delay**: *Étude d'un problème d'interaction fluide-structure : modélisation, analyse, stabilisation et simulations numériques*. Supervised with Sylvain Ervedoza and Michel Fournié. Started in November 2015, defense on August 2018, the 31st.  
 {: reversed="reversed"}
 
----
-
 ## Research projects
+---
 
 ### Current
 
@@ -74,17 +70,15 @@ redirect_from:
 0. 2010--2012 - **IPPON** - *Identification pour les problèmes de propagation d'ondes* - [FRAE](https://www.fnrae.org/detail-projet?id_theme=8&id_projet=44)
 {: reversed="reversed"}
   
----
-
 ## Service and leadership  
+---
 
 * 2015--2024 - In charge of the **core Applied Mathematics course** in the engineering program  
 * 2020--2023 - Elected **faculty representative on the Board of Directors**  
 * 2015--2021 - Elected **faculty representative on the Education Council**  
 
----
-
 ## Publications  
+---
 
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
