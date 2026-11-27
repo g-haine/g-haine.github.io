@@ -20,6 +20,8 @@ Since then, I worked on modeling, control and discretization of Partial Differen
 
 ## Latest Publications
 
+### Articles
+
 <ul>
 {% assign filtered = site.publications | where: "category", "manuscripts" %}
 {% assign sorted = filtered | sort: "date" | reverse %}
@@ -28,7 +30,7 @@ Since then, I worked on modeling, control and discretization of Partial Differen
 {% endfor %}
 </ul>
 
-## Latest Proceedings
+### Proceedings
 
 <ul>
 {% assign filtered = site.publications | where: "category", "conferences" %}
