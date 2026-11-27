@@ -45,6 +45,7 @@ redirect_from:
 ## PhD advisor  
 ---
 
+0. **Lorenzo Agostini**: *Port-Hamiltonian Approximations by Reduced-Order Systems*. Supervised with Charles Poussot-Vassal and Denis Matignon. Started in October 2026.  
 0. **Antoine Bendimerad-Hohl**: *Discrétisation structurée de systèmes Hamiltoniens à ports d'interaction implicites*. Supervised with Laurent Lefèvre and Denis Matignon. Started in October 2022, defense on November, the 5th.  
 0. **Anass Serhani**: *Systèmes couplés d'EDPs, vus comme des systèmes Hamiltoniens à ports avec dissipation : Analyse théorique et simulation numérique*. Supervised with Denis Matignon. Started in October 2017, defense on September 2020, the 28th.  
 0. **Guillaume Delay**: *Étude d'un problème d'interaction fluide-structure : modélisation, analyse, stabilisation et simulations numériques*. Supervised with Sylvain Ervedoza and Michel Fournié. Started in November 2015, defense on August 2018, the 31st.  

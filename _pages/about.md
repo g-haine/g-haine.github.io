@@ -28,6 +28,16 @@ Since then, I worked on modeling, control and discretization of Partial Differen
 {% endfor %}
 </ul>
 
+## Latest Proceedings
+
+<ul>
+{% assign filtered = site.publications | where: "category", "conferences" %}
+{% assign sorted = filtered | sort: "date" | reverse %}
+{% for post in sorted limit:2 %}
+  {% include archive-single-cv.html %}
+{% endfor %}
+</ul>
+
 ## Current projects in development
 
 I am working on a collection of python methods and classes in the [SCRIMP project](https://github.com/g-haine/scrimp), intended to speed up the coding process of structure-preserving discretization of port-Hamiltonian systems.
