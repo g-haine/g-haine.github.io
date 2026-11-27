@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout
@@ -41,6 +41,13 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --destination ./_site
+
+      - name: Verify CV PDF
+        run: |
+          if [ ! -s _site/files/downloads/cv.pdf ]; then
+            echo "::error::CV PDF generation failed"
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
