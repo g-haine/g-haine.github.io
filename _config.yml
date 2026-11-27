@@ -380,6 +380,8 @@ pandoc_exports:
     - '<div class="masthead[^"]*".*?</div>\s*<div id="main" role="main">'
     - '<div class="author__urls-wrapper".*?</div>\s*<div class="archive">'
     - '<div class="page__footer[^"]*".*?</div>\s*</footer>'
+    # Remove <hr> in export input only; the published HTML remains unchanged.
+    - '<hr\b[^>]*>'
 
   # Download Links
   inject_downloads: false
